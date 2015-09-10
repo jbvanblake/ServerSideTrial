@@ -1,0 +1,30 @@
+package com.weebly.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+
+public class PageDaoImpl implements PageDao{
+	
+	
+	@Autowired
+	private MongoTemplate mongoTemplate;
+
+	@Override
+	public void addPage(Page page) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deletePage(Page page) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updatePage(Page page) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

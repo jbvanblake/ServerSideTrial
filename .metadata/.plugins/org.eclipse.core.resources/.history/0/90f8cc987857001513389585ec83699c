@@ -1,0 +1,26 @@
+package com.weebly.controller;
+
+import org.springframework.data.annotation.Id;
+
+public class Page {
+
+    @Id
+    private String id;
+
+    private String pageName;
+    private String html;
+
+    public Page() {}
+
+    public Page(String pageName, String html) {
+        this.pageName = pageName;
+        this.html = html;
+    }
+
+    @Override
+    public String toString() {
+        return String.format(
+                "Page[id=%s, pageName='%s', html='%s']",
+                id, pageName, html);
+    }
+}

@@ -1,0 +1,46 @@
+package com.weebly.controller;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.View;
+
+import com.mongodb.DB;
+import com.mongodb.Mongo;
+import com.mongodb.MongoClient;
+
+@Controller
+public class WeeblyTrialController {
+	
+	@Autowired
+	private PageDao pageDao;
+
+	@RequestMapping("/welcome")
+	public ModelAndView helloWorld() {
+ 
+		String message = "<br><div style='text-align:center;'>"
+				+ "<h3>********** Hello World, Spring MVC Tutorial</h3>This message is coming from CrunchifyHelloWorld.java **********</div><br><br>";
+		return new ModelAndView("welcome", "message", message);
+	}
+	
+	@RequestMapping(value = "/page", method = RequestMethod.POST)
+	public void createPage(@ModelAttribute Page page, ModelMap model) {
+		if(page.getId() != null) {
+			pageDao.updatePage(page);
+		} else {
+			pageDao.addPage(page);
+		}
+	}
+	
+	@RequestMapping(value = "/page", method = RequestMethod.DELETE)
+	public void removePage(@ModelAttribute Page page, ModelMap model) {
+		pageDao.deletePage(page); 	
+	}
+}
