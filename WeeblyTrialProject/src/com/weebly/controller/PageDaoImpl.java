@@ -1,5 +1,7 @@
 package com.weebly.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.BasicQuery;
@@ -34,6 +36,19 @@ public class PageDaoImpl implements PageDao{
 		mongoTemplate.remove(query, Page.class);
 		addPage(page);
 		
+	}
+
+	@Override
+	public Page get(Long id) {
+		Query query = new BasicQuery("{ _id : " + id + "}");
+		Page page = mongoTemplate.findOne(query, Page.class);
+		
+		return page;
+	}
+
+	@Override
+	public List<Page> getAll() {
+		 return mongoTemplate.findAll(Page.class);
 	}
 
 }
