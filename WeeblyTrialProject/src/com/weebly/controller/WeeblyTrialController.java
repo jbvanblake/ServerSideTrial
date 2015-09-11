@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.View;
 
@@ -41,6 +42,8 @@ public class WeeblyTrialController {
 		
 		pageDao.updatePage(page);
 		response.setStatus(HttpServletResponse.SC_OK);
+
+		setCrossDomainResponseHeaders(response);
 	}
 	
 	
@@ -49,7 +52,10 @@ public class WeeblyTrialController {
 		
 			Page page = pageDao.get(id);
 		
+			
 		response.setStatus(HttpServletResponse.SC_OK);
+
+		setCrossDomainResponseHeaders(response);
 		return page;
 	}
 	
@@ -68,6 +74,9 @@ public class WeeblyTrialController {
 			}
 		
 		response.setStatus(HttpServletResponse.SC_OK);
+		setCrossDomainResponseHeaders(response);
+		
+		
 		try {
 			response.getOutputStream().write(json.getBytes());
 		} catch (IOException e) {
@@ -80,7 +89,33 @@ public class WeeblyTrialController {
 	
 	@RequestMapping(value = "/api/page/{id}", method = RequestMethod.DELETE)
 	public void removePage(@PathVariable Long id, ModelMap model, HttpServletRequest request, HttpServletResponse response) {
+		setCrossDomainResponseHeaders(response);
 		pageDao.deletePage(id);
 		response.setStatus(HttpServletResponse.SC_OK);
+		
 	}
+	
+	@RequestMapping(value = "/api/page/delete", method = RequestMethod.POST)
+	public void crossDomainRemovePage(@ModelAttribute LongHolder idHolder, ModelMap model, HttpServletRequest request, HttpServletResponse response) {
+		setCrossDomainResponseHeaders(response);
+		pageDao.deletePage(idHolder.getId());
+		response.setStatus(HttpServletResponse.SC_OK);
+		
+	}
+	@RequestMapping(value = "/api/page/img", method = RequestMethod.POST)
+	public void uploadImage(@ModelAttribute MultipartFile image, ModelMap model, HttpServletRequest request, HttpServletResponse response) {
+		setCrossDomainResponseHeaders(response);
+		
+		response.setStatus(HttpServletResponse.SC_OK);
+		
+	}
+	
+	public void setCrossDomainResponseHeaders(HttpServletResponse response) {		
+		response.addHeader("Access-Control-Allow-Origin", "*");
+		response.addHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
+		response.addHeader("Access-Control-Allow-Headers", "Authorization");
+		
+	}
+	
+	
 }

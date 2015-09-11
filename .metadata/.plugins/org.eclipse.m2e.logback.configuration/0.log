@@ -1160,3 +1160,51 @@
 2015-09-10 11:41:12,229 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
 2015-09-10 11:41:12,229 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-09-10 11:41:12,230 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 12:25:27,601 [Worker-179] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 12:25:27,602 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 12:25:27,602 [Worker-179] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 12:25:27,602 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 13:04:46,560 [Worker-195] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 13:04:46,561 [Worker-195] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 13:04:46,561 [Worker-195] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 13:04:46,561 [Worker-195] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 13:11:16,006 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 13:11:16,006 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 13:11:16,007 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 13:11:16,007 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 13:32:13,248 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 13:32:13,249 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 13:32:13,250 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 13:32:13,250 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 16:42:03,827 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 16:42:03,828 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 16:42:03,828 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 16:42:03,828 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 16:50:17,980 [Worker-252] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 16:50:17,980 [Worker-252] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 16:50:17,981 [Worker-252] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 16:50:17,981 [Worker-252] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 17:01:50,443 [Worker-254] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:01:50,443 [Worker-254] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 17:01:50,444 [Worker-254] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:01:50,444 [Worker-254] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 17:03:25,133 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:03:25,134 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 17:03:25,134 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:03:25,135 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 17:04:58,828 [Worker-269] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:04:58,828 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 17:04:58,829 [Worker-269] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:04:58,829 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 17:05:08,301 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:05:08,301 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 17:05:08,302 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:05:08,302 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 17:05:12,254 [Worker-258] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:05:12,255 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 17:05:12,255 [Worker-258] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:05:12,255 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
+2015-09-10 17:16:58,513 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:16:58,514 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/main/resources
+2015-09-10 17:16:58,515 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-10 17:16:58,515 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weeblytrialweek/Documents/workspace/WeeblyTrialProject/src/test/resources
